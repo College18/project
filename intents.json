@@ -1,0 +1,558 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)"
+
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "fee",
+      "patterns": ["where can i find my fee", "how to check fee", "how to find my fee status","fee","where can i find my library/bus fee","how can i pay my library/bus fee"],
+      "responses": ["go to college site there you find current student then click on it then go to online fee portal and then enter your registration id"]
+    },
+    {
+      "tag": "civil",
+      "patterns": [
+        "As a student I want know about civil branch so that I will know about civil engineering","about civil branch","know about civil branch","civil branch"
+      ],
+      "responses": [
+        "Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment"
+      ]
+    },
+    {
+      "tag": "mechanical",
+      "patterns": [
+      "About Mechanical Branch","i want to know about mechanical branch","know about mechanical","mechanical branch","about mechanical branch"
+      ],
+      "responses": [
+        "In Mechanical branch,More than 80% student are placed in company,More than 20 projects available in college"
+      ]
+    },
+    {
+      "tag": "IT",
+      "patterns": [
+        "I want know about IT branch", "know about IT","IT branch","IT"
+
+      ],
+      "responses": [
+            "IT Courses or Information Technology Courses are one of the most studied subjects since the last decade."
+      ]
+    },
+    {
+      "tag": "branches",
+      "patterns": [
+        "i want to know branches present in college",
+        "branches present on college","branches in college","branches","college branches"
+      ],
+      "responses": [
+        "five branches-mechanical,civil,CS,IT,ECE"
+      ]
+    },
+    {
+      "tag": "CS",
+      "patterns": [
+        "i want to know about computer branch",
+        "know about computer science",
+        "computer science branch",
+        "computer branch",
+        "about computer branch",
+        "about computer science branch"
+      ],
+      "responses": [
+        "computer sciecne branch is highly popular branch in current scennerio where you learn about coding, testing of software etc.."
+      ]
+    },
+    {
+      "tag": "chemical branch" ,
+      "patterns": ["what is chemical branch","explain chemical branch","know about chemical branch","chemical branch"
+
+      ],
+      "responses": [
+        "chemical branch is the brach of engineering which deals with natural and experimental science.."
+      ]
+    },
+    {
+      "tag":"ECE branch" ,
+      "patterns": ["What is ECE branch","explain ECE branch","ECE branch","i want to know about ECE branch"
+
+      ],
+      "responses": [
+        "Electronics and Communications Engineering (ECE) involves researching, designing, developing, and testing electronic equipment used in various systems."
+      ]
+    },
+    {
+      "tag": "Result" ,
+      "patterns": ["i want to see my result","i want to view my result", "where to dind my result"
+
+      ],
+      "responses": [
+        "go to poornima site-> click on current student-> scroll down and click on result"
+
+      ]
+    },
+    {
+      "tag": "view attendance" ,
+      "patterns": ["where can i view my attendance", "how to check my attendance status", "where can i see my attendance","where to check my attendance"
+
+      ],
+      "responses": ["go to cstech website there you can check your attendance and also apply for bonus attendance"
+
+      ]
+    },
+    {
+      "tag": "LIVE EVENTS" ,
+      "patterns": ["where can i see live event list","view live events","where can i find about live event","live events","i want to view the list of celebrations","where can i find list of celebrations","celebration list"
+
+      ],
+      "responses": ["Go to home page of poornima website there you can view the live events"
+
+      ]
+    },
+    {
+      "tag": "Transport information" ,
+      "patterns": ["where to view the transport facility information so that i can pay my fee","how to view the transport facility information so that i can pay my fee","transport information"
+
+      ],
+      "responses": ["go to main office there you can ask to transport facility member"
+
+      ]
+    },
+    {
+      "tag": "holidays",
+      "patterns": ["where to check the academic calendar ","where can i check the holidays in a semester","holidays","how to find the holidays in a semester","semester holidays information","view the academic calendar"
+
+      ],
+      "responses": ["Poornima website-> current student->bottom academic calender , here in academic calender you can see the holidays details,mid term detais etc.."
+
+      ]
+    },
+    {
+      "tag": "faculty notes" ,
+      "patterns": ["from where can i download faculty notes or view faculty notes ", "faculty notes"
+
+      ],
+      "responses": ["go to google classroom-> log in using poornima id->go to classes from whom you want to download"
+
+      ]
+    },
+        {
+      "tag": "papers" ,
+      "patterns": ["where can i download papers of main exam or mid term exam or first mid term or second mid term or end term","view mid term papers or first mid term paper or second mid term paper or end term paper"
+
+      ],
+      "responses": ["go to poornima website-> current student-> scroll down u will see mid term papers and rtu papers option"
+
+      ]
+    },
+        {
+      "tag": "project" ,
+      "patterns": ["where can i view or how can i check or view project details"
+
+      ],
+      "responses": ["go to poornima website->current student->project database"
+
+      ]
+    },
+    {
+      "tag": "Study sites" ,
+      "patterns": ["where can i find sites for study for a particular branch or view sites for study for a branch or check study sites for cs or check study sites for it or check study sites civil or check study sites for mechanical ", "study site for branches","study site"
+
+      ],
+      "responses": ["On your poornima college copy in front page you can find various study sites for different branches ,some study sites for branches",
+        "cs and IT branch:- 1.)Stackoverflow.com   2.)Khanacademy.org",
+        "for civil branch:- 1.)ClearIAS.com    2.)Mrunal.com"
+
+      ]
+    },
+    {
+      "tag": "ranking" ,
+      "patterns": ["i want to know my college ranking of rtu in overall ranking","ranking","i want to check my college overall ranking in total colleges of RTU"
+
+      ],
+      "responses": ["go to poornima website home page there you can see college RTU ranking"
+
+      ]
+    },
+    {
+      "tag": "alumini" ,
+      "patterns": ["I want to know about my college alumini or want to check college alumini's details or college alumini information ","alumini detail","alumini"
+
+      ],
+      "responses": ["go to college home page->top column alumini"
+
+      ]
+    },
+    {
+      "tag": "placement " ,
+      "patterns": ["i want to see the number of student placed","placement detail","placement","i want to know about highest placement holder","i want to view placement record or check placement record"
+
+      ],
+      "responses": ["poornima home page->top left placement"
+      ]
+    },
+    {
+      "tag": "virtual lab" ,
+      "patterns": ["virtual lab","where can i check virtual lab","view virtual lab","how to perform experiments on cirtual lab"
+
+      ],
+      "responses": ["poornima home page->current student->virtual lab"
+
+      ]
+    },
+    {
+      "tag": "download form" ,
+      "patterns": ["where can i download form","download college form"
+
+      ],
+      "responses": ["poornima home page->current student->download form"
+
+      ]
+    },
+    {
+      "tag": "admission procedure" ,
+      "patterns": ["admission procedure","i want to know admission procedure"
+
+      ],
+      "responses": ["go in college admission cell there you can ask about admission procedure"
+
+      ]
+    },
+    {
+      "tag": "admission criteria" ,
+      "patterns": ["i want to know about admission criteria","admission criteria"
+
+      ],
+      "responses": ["12th percentage should be>= 50"
+
+      ]
+    },
+    {
+      "tag": "college hisotry" ,
+      "patterns": ["college history","i want to know about college history"
+
+      ],
+      "responses": ["poornima home page->about us"
+
+      ]
+    },
+    {
+      "tag": "companies which hire in college" ,
+      "patterns": ["companies","i want to know about companies which come to hire in college"
+
+      ],
+      "responses": ["poornima home page-> scroll down-> then you can see companies which come to hire"
+
+      ]
+    },
+    {
+      "tag": "college archieve" ,
+      "patterns": ["college archieve"," i want to view college archieve"
+
+      ],
+      "responses": ["poornima home page->current student-> poornima archieve"
+
+      ]
+    },
+    {
+      "tag": "career" ,
+      "patterns": ["career","i want to know about career in college"
+
+      ],
+      "responses": ["poornima home page-> top lest career"
+
+      ]
+    },
+    {
+      "tag": "hostel" ,
+      "patterns": ["hostel details","i want to know about hostel in college"
+
+      ],
+      "responses": ["poornima home page-> top left hostel"
+
+      ]
+    },
+    {
+      "tag": "faculty" ,
+      "patterns": ["faculty details","i want to know about faculty"
+
+      ],
+      "responses": ["poornima home page-> scroll you will find faculties"
+
+      ]
+    },
+    {
+      "tag": "college life" ,
+      "patterns": ["college life","i want to know about college life"
+
+      ],
+      "responses": ["poornima home page->right top life at pgc"
+
+      ]
+    },
+    {
+      "tag": "subjects" ,
+      "patterns": ["first year subject","second year subject","third year subject","fourth year subject"," i want to know about first year subject or second year subject or third year subject or forth year subject","subjects"
+
+      ],
+      "responses": ["poornima home page->scroll down-> bottom syllabus"
+
+      ]
+    },
+    {
+      "tag": "check,update,modify,remove data" ,
+      "patterns": ["check data","where can i view data or view database","check database or update database or remove data or modify database"
+
+      ],
+      "responses": ["go to college database there you can perform these task"
+
+      ]
+    },
+
+    {
+      "tag": "recruitment procedure" ,
+      "patterns": ["recruitment procedure","i want to know about recruitment procedure"
+
+      ],
+      "responses": ["on your mail TPO will drop a mail regarding companies recruitmnet procedure"
+
+      ]
+    },
+    {
+      "tag": "contact" ,
+      "patterns": ["i want to know about placement office contacts","tpo contact or tpo mail"
+
+      ],
+      "responses": ["drop your mail on-> tpo@poornima.org,        diptilodha@poornima.org"
+
+      ]
+    },
+    {
+      "tag": "official mail" ,
+      "patterns": ["i want to know about official mail of organisation", "organisation official mail"
+
+      ],
+      "responses": ["info@poornima.org"
+
+      ]
+    },
+    {
+      "tag": "certification and training " ,
+      "patterns": ["i want to know about certification and training provided by college","certification provided","training provided","know about special program of training and placement cell or TPO special program"
+
+      ],
+      "responses": ["view it on college official website or you can enquiry about it through TPO"
+
+      ]
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "tag": "upload notes and assignment " ,
+      "patterns": ["As a faculty or teacher i want to know where can i upload notes","upload notes", "upload assignments"
+
+      ],
+      "responses": ["go to google classroom there you can upload note and assignment "
+
+      ]
+    },
+    {
+      "tag": "checking class schedule" ,
+      "patterns": ["as a teacher i want to know where can i check class schedule or where can i check schedule","check class schedule"
+
+      ],
+      "responses": ["you can check schedule in timetable provided by HOD"
+
+      ]
+    },
+    {
+      "tag": "check student attendance" ,
+      "patterns": ["As a faculty i want to know how can i check the attendance of students","check student attendance","student attendance"
+
+      ],
+      "responses": ["you can check student attendance on ERP"
+
+      ]
+    },
+    {
+      "tag": "upload marks" ,
+      "patterns": ["as a teacher i want to know  where can i upload exam marks of student","upload exam marks"
+
+      ],
+      "responses": ["you can upload exam marks on the portal"
+
+      ]
+    },
+    {
+      "tag": "student detail" ,
+      "patterns": ["as a teacher i want to know where can i see student details","student details"
+
+      ],
+      "responses": ["go to portal click on student detail there you can get details of student"
+
+      ]
+    },
+    {
+      "tag": "see result" ,
+      "patterns": ["as a teacher i want to know where i can see student exam results","first mid term result","second mid term result","end term result","overall percentage"
+
+      ],
+      "responses": ["you can see the result of student on teachers portal or database"
+
+      ]
+    },
+    {
+      "tag": "online test" ,
+      "patterns": ["as a teacher i want to know how to take online test or where to take online test or online quiz","online test","online quiz"
+
+      ],
+      "responses": ["go to goole classroom there you can upload the quiz and take the test"
+
+      ]
+    },
+    {
+      "tag": "subject weightage " ,
+      "patterns": ["as a teacher i want to know about my subject weightage ","subject weightage"
+
+      ],
+      "responses": ["go to rtu -> get syllabus->you can find subject weightage"
+
+      ]
+    },
+    {
+      "tag": "modify timetable " ,
+      "patterns": ["as a teacher i want to know how can i modify timetable","modify timetable"
+
+      ],
+      "responses": ["go to database->enter mail->modify timetable"
+
+      ]
+    },
+    {
+      "tag": "debart list " ,
+      "patterns": ["as a teacher i want to know where to check debart list","debart list"
+
+      ],
+      "responses": ["go to erp check the attendance and view debart list"
+
+      ]
+    },
+    {
+      "tag": "teachers detail" ,
+      "patterns": ["as a HOD i want to know where can i view teachers details","teacher detail"
+
+      ],
+      "responses": ["you can view it on college database"
+
+      ]
+    },
+    {
+      "tag": "eligible student list " ,
+      "patterns": ["as a teacher i want to know where can i check list of eligible student for placement","eligible student list"
+
+      ],
+      "responses": ["you can get the list of eligible student from TPO"
+
+      ]
+    },
+    {
+      "tag": "placed student detail" ,
+      "patterns": ["as a teacher i want to know where can i view details of student placed","placed student detail"
+
+      ],
+      "responses": ["you can check TPO database for it"
+
+      ]
+    },
+    {
+      "tag": "company tracking " ,
+      "patterns": ["as a teacher i want to know which companies are coming for recruitment","company tracking"
+
+      ],
+      "responses": ["you can check the information provided by the company"
+
+      ]
+    },
+    {
+      "tag": "student who fill form " ,
+      "patterns": ["as a teacher i want to know where can i check about the students who filled the form","detail of student who filled form","student who filled form"
+
+      ],
+      "responses": ["you can see the responses submitted by student which will tell you how many student and who filled the form"
+
+      ]
+    },
+    {
+      "tag": "checking absenties " ,
+      "patterns": ["as a teacher i want to know where to check the number of student who come for placement and number of student who are absent","present students","absent student","present during interview","absent during interview","checking absenties","checking present students"
+
+      ],
+      "responses": ["company will inform you regarding it"
+
+      ]
+    },
+    {
+      "tag": "issue book " ,
+      "patterns": ["as a librarian i want to know how to issue book to the student","issue book","checking number of book issued to a student"
+
+      ],
+      "responses": ["go to librarian office->open database->there you do the entry->after entry book is issued and you can check how much books issued to student"
+
+      ]
+    },
+    {
+      "tag": "checking fine" ,
+      "patterns": ["as a librarian i want to know how to check the dues of student or check the fine on the book issued to student","checking fine"
+
+      ],
+      "responses": ["In librarian database when you click on student then you can see how much he or she need to pay or their fine"
+
+      ]
+    },
+    {
+      "tag": "conducting review competition " ,
+      "patterns": ["as a librarian i want to know how to conduct review competition","conducting review competition"
+
+      ],
+      "responses": ["you can conduct review competition with the permission of HOD"
+
+      ]
+    },
+    {
+      "tag": "requesting new books " ,
+      "patterns": ["as a librarian i want to know how to request new books for the students from college","requesting new books"
+
+      ],
+      "responses": ["you can drop the mail on official mail for new books"
+
+      ]
+    }
+
+
+  ]
+}
